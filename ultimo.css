@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+  
+   
+
+}
+
+.titulo{
+   
+   
+    width: 50%; 
+    
+ }
+ 
+
+.principio{
+    width: 100%;
+    display: flex;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)),url("https://media.infocielo.com/p/6b9bcc76774715f47b4a66275243dfde/adjuntos/299/imagenes/001/334/0001334462/887x0/smart/maxresdefaultjpg.jpg") ;
+    background-position: center center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;  
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.conenido{
+    position: relative;
+    font-size:25px;
+    margin-top: 30px;
+    width: 90%;
+    background-color: rgba(114, 113, 113, 0.291);   
+
+}
+
+
+
+
+.btn{
+
+    text-decoration: none;
+    background-color: grey;
+    font: 30px;
+    padding: 20px;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: -950px;
+    color: black;
+    border-radius: 60px;
+    transition: 0.10s;
+}
+
+.btn:hover{
+
+    background-color: rgba(68, 68, 240, 0.759);
+    color: white;
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+
+}
+
+
+
+
+.pie{
+    background: linear-gradient( to right,  black,rgb(104, 104, 104),black);
+    margin-top: 100px;
+    width: 100%;
+    
+
+}
+.nombre{
+    
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.materia{
+
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.correo{
+
+    font-size: 25px;
+    color: white;
+    text-align: left;
+}
+
